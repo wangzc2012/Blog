@@ -67,7 +67,7 @@ site:
 # 用户的个人信息
 user:
   name: Wangzc2012 # 用户名
-  site: "https://frosti.saroprock.com" # 用户的网站链接
+  site: "https://wzcblog.netlify.app/" # 用户的网站链接
   avatar: /profile.png # 用户头像路径
   sidebar: # 侧边栏配置
     social:
@@ -79,6 +79,14 @@ user:
         ariaLabel: BiliBili
         title: BiliBili
         svg: "ri:bilibili-line"
+      - href: "tencent://message/?uin=2647784598" 
+        ariaLabel: QQ
+        title: QQ
+        svg: "ri:qq-line" 
+      - href: "mailto:2647784598@qq.com"  
+        ariaLabel: Email
+        title: Email
+        svg: "ri:mail-line"
   footer:
     social:
       - href: "https://github.com/wangzc2012"
@@ -89,4 +97,12 @@ user:
         ariaLabel: BiliBili
         title: BiliBili
         svg: "ri:bilibili-line"
+      - href: "tencent://message/?uin=2647784598" 
+        ariaLabel: QQ
+        title: QQ
+        svg: "ri:qq-line"  
+      - href: "mailto:2647784598@qq.com"  
+        ariaLabel: Email
+        title: Email
+        svg: "ri:mail-line"
 
