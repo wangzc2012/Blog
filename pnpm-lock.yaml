@@ -11,6 +11,9 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.3)(typescript@5.8.2)
+      '@astrojs/markdown-remark':
+        specifier: ^6.3.1
+        version: 6.3.1
       '@astrojs/mdx':
         specifier: ^4.2.1
         version: 4.2.1(astro@5.5.4(@types/node@22.13.11)(jiti@1.21.7)(lightningcss@1.28.2)(rollup@2.79.2)(sass-embedded@1.86.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
@@ -59,6 +62,9 @@ importers:
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
+      katex:
+        specifier: ^0.16.21
+        version: 0.16.21
       marked:
         specifier: ^14.1.4
         version: 14.1.4

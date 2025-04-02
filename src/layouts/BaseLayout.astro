@@ -8,6 +8,7 @@ import Header from "@components/Header.astro";
 import Sidebar from "@components/Sidebar.astro";
 import Footer from "@components/Footer.astro";
 import Navbar from "@components/Navbar.astro";
+import 'katex/dist/katex.min.css';
 
 const { title, image, headings = [], showTOC = false } = Astro.props;
 ---
@@ -50,6 +51,7 @@ const { title, image, headings = [], showTOC = false } = Astro.props;
         });
       })();
     </script>
+    <link rel="stylesheet" href="/katex.min.css" />
   </head>
   <body>
     <!-- Mobile Navbar - Hidden on desktop -->

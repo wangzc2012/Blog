@@ -13,6 +13,12 @@ import { CODE_THEME, USER_SITE } from "./src/config.ts";
 
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
+// astro.config.mjs
+import { defineConfig } from 'astro/config';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
+
 // https://astro.build/config
 export default defineConfig({
   site: USER_SITE,
@@ -35,6 +41,11 @@ export default defineConfig({
     }),
     playformCompress(),
   ],
+  markdown: {
+    remarkPlugins: [remarkMath],       // 启用数学公式识别
+    rehypePlugins: [rehypeKatex],      // 启用 KaTeX 渲染
+    syntaxHighlight: 'shiki',          // 可选，不影响公式
+  },
   markdown: {
     shikiConfig: {
       theme: CODE_THEME,
